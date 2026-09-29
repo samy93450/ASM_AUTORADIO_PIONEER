@@ -1,0 +1,20 @@
+ASM AUTORADIO PIONEER - PACKAGE EXE FINAL
+=========================================
+
+1. Installer Python 3.11 ou 3.12 sur Windows et cocher "Add Python to PATH".
+2. Double-cliquer sur VERIFIER_AVANT_BUILD.bat.
+3. Double-cliquer sur build_exe.bat.
+4. Le programme final sera cree dans : dist\ASM Autoradio Pioneer.exe
+
+Le lanceur utilise un serveur localhost et un stockage WebView2 persistant dans LocalAppData.
+Cela evite le changement d'origine IndexedDB/localStorage d'un build PyInstaller --onefile.
+
+Windows 10/11 : Microsoft Edge WebView2 Runtime doit etre disponible. Il est normalement deja installe sur Windows 11 et sur la plupart des Windows 10 a jour.
+
+FICHIERS
+- index.html : application version 60
+- launcher.py : lanceur desktop PyWebView
+- build_exe.bat : compilation automatique
+- make_icon.py : creation de l'icone .ico
+- assets/icon-source.png : icone source
+- assets/jacket.png : jacket de l'application

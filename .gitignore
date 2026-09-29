@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Generated Windows icon
+assets/asm-autoradio.ico
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
